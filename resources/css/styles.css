@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  background-color: #22272F;
+  height: 6%;
+  align-items: center;
+  padding: 0 420px;
+
+  box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.7);
+}
+
+.navbar p {
+  color: #EEEEEE;
+  font-size: 30px;
+}
+
+.wrapper {
+  display: flex; /* Make the container flexible */
+  height: 100%; /* Set the height of the main container that wraps all the sub elements */
+  align-items: center; /* Alight the content of the container vertically at the center */
+  justify-content: center; /* Alight the content of the container horizintally at the center */
+}
+
+
+.login-container {
+  display: flex; /* Make the container flexible */
+  border-radius: 18px; /* Set the radius of the container */
+  height: 582px; /* Set the height of the container */
+  width: 1080px; /* Set the width of the container */
+}
+
+.left {
+  flex: 1.5;
+  border: 5px solid #EEEEEE; /* Set the border to light gray */
+  background-color: #EEEEEE; /* Set the background color to light gray */
+
+  /* Set the border radius only on the left hand side of the element */
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+
+  /* Add a shadow to the left container */
+  box-shadow: 13px 8px 20px 1px rgba(0,0,0,0.7);
+}
+
+.right {
+  flex: 1;
+  border: 5px solid #22272F;
+  background-color: #22272F;
+
+  /* Set the border radius only on the left hand side of the element */
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+
+  /* Add a shadow to the right container */
+  box-shadow: 13px 8px 20px 1px rgba(0,0,0,0.7);
+}
