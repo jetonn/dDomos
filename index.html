@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="resources/css/basic.css">
     <link rel="stylesheet" href="resources/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@100;300;700&display=swap" rel="stylesheet">
 
   </head>
   <body>
@@ -28,17 +28,20 @@
 
           <h1 class="right-title">Home Automation</h1>
 
-          <form class="form-container" action="index.html" method="post">
+          <form class="form" action="index.html" method="post">
             <div class="username">
-              <label for="">Email or username</label> 
-              <input type="text" name="" value="">
+              <input type="text" name="username" value="" required autocomplete="off">
+              <label for="name" class="label-username"><span class="content-name">Username</span></label>
             </div>
+
             <div class="password">
-              <label for="">Password</label>
-              <input type="password" name="" value="">
+              <input type="password" name="password" value="" required autocomplete="off">
+              <label for="password" class="label-password"><span class="content-name">Password</span></label>
             </div>
-            <button type="button" name="button">Sign In</button>
           </form>
+
+          <button type="button" name="button" class="sign-in-btn">Sign In</button>
+
         </div>
 
       </div>
