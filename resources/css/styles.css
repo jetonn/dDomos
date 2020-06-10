@@ -13,6 +13,11 @@
   font-size: 30px;
 }
 
+#page-name:hover {
+  color: #EBA915;
+  cursor: pointer;
+}
+
 
 /* Main Container that wrapps all the sub containers */
 .wrapper {
@@ -49,7 +54,7 @@
   color: #EEEEEE; /* Set the color of the element to light gray */
   display: flex; /* Make the container flexible */
   justify-content: center; /* Align the element horizontally in the container */
-  margin-top: 60px; /* Add space between the top of the container and the elment */
+  margin-top: 90px; /* Add space between the top of the container and the elment */
 }
 
 
@@ -146,7 +151,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 39px;
 }
 
 .button {
@@ -176,7 +181,10 @@ a {
 }
 
 #button-2 {
+  margin-top: 39px;
   position: relative;
+  left: 50%;
+  transform: translateX(-63%);
   overflow: hidden;
   cursor: pointer;
 }
